@@ -6,11 +6,11 @@ bleach==1.5.0
 certifi==2019.3.9
 chardet==3.0.4
 Click==7.0
-dash==0.42.0
-dash-core-components==0.47.0
-dash-html-components==0.16.0
-dash-renderer==0.23.0
-dash-table==3.6.0
+dash==1.11.0
+dash-core-components==1.9.1
+dash-html-components==1.0.3
+dash-renderer==1.4.0
+dash-table==4.6.2
 decorator==4.4.0
 Flask==1.0.2
 Flask-Compress==1.4.0
