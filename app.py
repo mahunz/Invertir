@@ -156,7 +156,8 @@ def generate_future_price_table(selected_dropdown_value, jsonInfoBalanceRes,json
 
     pricedf = generate_price_df(selected_dropdown_value,InfoBalanceRes,stockpricedf,discountrate,marginrate)
 
-    pricedf=pricedf.reset_index()
+    pricedf= pricedf.reset_index()
+#    print(InfoBalanceRes)
 #    print(pricedf)
 #    print(range(min(len(pricedf), max_rows)))
 #    print(pricedf.columns)

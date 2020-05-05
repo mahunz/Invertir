@@ -28,7 +28,7 @@ def eligibilitycheck(dfformatted):
     # Interest Coverage Ratio > 3
     if dfformatted.interestcoverageratio.tail(1).values[0]<3:
 #            legiblestock = False
-            reasonlist.append('El indicador cobertura de interes es menor a 3. InterestCovertRatio = ') + str(dfformatted.interestcoverageratio.tail(1).values[0])
-            print(dfformatted.interestcoverageratio.tail(1).values[0])
+            reasonlist.append('El indicador cobertura de interes es menor a 3. InterestCovertRatio = ' + str(dfformatted.interestcoverageratio.tail(1).values[0]))
+#            print(dfformatted.interestcoverageratio.tail(1).values[0])
 #    print(reasonlist)
     return reasonlist
