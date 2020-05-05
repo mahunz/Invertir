@@ -33,12 +33,9 @@ app.config['suppress_callback_exceptions']=True
 def getTabla(jsonDF):
     DF=pd.read_json(jsonDF, orient='split')
 
-
-
-
 app.layout = html.Div([
     html.Div([
-        #html.H2('Valor de la Inversión'),
+        # html.H2('Valor de la Inversion'),
         # First let users choose stocks
         html.H3('Elija la acción'),
         dcc.Dropdown(
@@ -169,4 +166,4 @@ def generate_future_price_table(selected_dropdown_value, jsonInfoBalanceRes,json
         for col in pricedf.columns ]) for i in range(min(len(pricedf), max_rows))]
 
 if __name__ == '__main__':
-    app.run_server(debug=True,  port=8050)
+    app.run_server(debug=True)
