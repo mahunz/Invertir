@@ -81,7 +81,7 @@ terminado==0.8.3
 testpath==0.4.4
 tornado==6.0.4
 traitlets==4.3.2
-urllib3==1.24.3
+urllib3==1.26.5
 urlopen==1.0.0
 virtualenv==16.0.0
 wcwidth==0.1.9
