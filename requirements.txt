@@ -59,7 +59,7 @@ plotly==3.9.0
 plotly-charts==0.5
 prometheus-client==0.7.1
 prompt-toolkit==3.0.5
-protobuf==3.5.2.post1
+protobuf==3.18.3
 pydotplus==2.0.2
 Pygments==2.6.1
 pyparsing==2.4.0
